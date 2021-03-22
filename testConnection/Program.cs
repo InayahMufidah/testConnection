@@ -21,7 +21,7 @@ namespace testConnection
                 + "database=ProdiTI;user ID=sa;password=123"))
             {
                 conn.Open();
-                Console.Write("Koneksi Sukses");
+                Console.Write("Koneksi Sukses dengan Database");
                 Console.Read();
             }
         }
